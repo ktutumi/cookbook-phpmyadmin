@@ -8,7 +8,7 @@
 #
 
 download_filename = "phpMyAdmin-#{node['phpmyadmin']['version']}-all-languages.tar.gz"
-download_url = "http://sourceforge.net/projects/phpmyadmin/files/phpMyAdmin/#{node['phpmyadmin']['version']}/#{download_filename}/download"
+download_url = "http://jaist.dl.sourceforge.net/project/phpmyadmin/phpMyAdmin/#{node['phpmyadmin']['version']}/#{download_filename}"
 
 dest_dir = File.join('/opt', cookbook_name.to_s)
 docroot_dir = File.join(dest_dir, download_filename.gsub('.tar.gz', ''))
