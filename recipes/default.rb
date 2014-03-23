@@ -31,11 +31,7 @@ end
 template File.join(node['apache']['dir'], 'conf.d', 'phpmyadmin.conf') do
   variables docroot_dir: docroot_dir
 
-  %w{apache2 php-fpm}.each do |svc|
-    if node.recipe? svc
-      notifies :reload, "service[#{svc}]"
-    end
-  end
+  notifies :reload, 'service[apache2]'
 end
 
 log docroot_dir
