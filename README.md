@@ -38,7 +38,7 @@ e.g.
     <td><tt>['phpmyadmin']['version']</tt></td>
     <td>Version</td>
     <td>phpMyAdmin version</td>
-    <td><tt>4.1.4</tt></td>
+    <td><tt>4.1.11</tt></td>
   </tr>
 </table>
 
