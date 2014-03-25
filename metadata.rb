@@ -4,7 +4,7 @@ maintainer_email 'Koichi Tsutsumi <koichi.tsutsumi@gmail.com>'
 license          'All rights reserved'
 description      'Installs/Configures phpMyAdmin'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.1'
+version          '0.1.2'
 
 depends 'apache2'
 depends 'tar'
