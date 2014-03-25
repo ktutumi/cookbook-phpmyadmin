@@ -3,6 +3,10 @@ phpmyadmin CHANGELOG
 
 This file is used to list changes made in each version of the phpmyadmin cookbook.
 
+0.1.2
+-----
+- [Koichi Tsutsumi] - up to version 4.1.11
+
 0.1.0
 -----
 - [your_name] - Initial release of phpmyadmin
