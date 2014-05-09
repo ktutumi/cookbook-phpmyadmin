@@ -5,6 +5,10 @@ This file is used to list changes made in each version of the phpmyadmin cookboo
 
 0.1.2
 -----
+- [Koichi Tsutsumi] - Update version to 4.2.0
+
+0.1.1
+-----
 - [Koichi Tsutsumi] - up to version 4.1.11
 
 0.1.0
