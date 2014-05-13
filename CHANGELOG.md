@@ -3,6 +3,10 @@ phpmyadmin CHANGELOG
 
 This file is used to list changes made in each version of the phpmyadmin cookbook.
 
+0.1.3
+-----
+- [Koichi Tsutsumi] - include apache2 recipe
+
 0.1.2
 -----
 - [Koichi Tsutsumi] - Update version to 4.2.0

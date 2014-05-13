@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe 'apache2::default'
+
 download_filename = "phpMyAdmin-#{node['phpmyadmin']['version']}-all-languages.tar.gz"
 download_url = "http://jaist.dl.sourceforge.net/project/phpmyadmin/phpMyAdmin/#{node['phpmyadmin']['version']}/#{download_filename}"
 
