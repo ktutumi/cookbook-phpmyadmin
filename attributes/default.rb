@@ -17,5 +17,5 @@
 # limitations under the License.
 #
 
-default['phpmyadmin']['version'] = '4.2.0'
+default['phpmyadmin']['version'] = '4.2.6'
 
